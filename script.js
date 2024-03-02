@@ -91,6 +91,7 @@ newGameEle.addEventListener("click" , function(){
 
     score0Ele.textContent = 0;
     score1Ele.textContent = 0;
+     document.getElementById(`current--${activePlayer}`).textContent = 0;
 
 
 });
